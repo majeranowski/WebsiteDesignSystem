@@ -1,0 +1,89 @@
+body {
+    margin: 0 10%;
+    background: #f1f1ed;
+}
+.container {
+    border: 2px solid grey;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.color-container{
+    width: 100%;
+}
+.color1, .color2, .color3, .color4, .color5, .color6 {
+    display: inline-block;
+    margin: 20px auto;
+    text-align: center;
+    width: 32%;
+    min-height: 100px;
+}
+.color1 {
+    background-color: #205e9b;
+    color: #f1f1ed;
+}
+.color2 {
+    background-color: #ad20a6;
+    color: #f1f1ed;
+}
+.color3 {
+    background-color: #23aa98;
+    color: #f1f1ed;
+}
+.color4 {
+    background-color: #86eaee;
+    color: black;
+}
+.color5 {
+    background-color: #9ad69f;
+    color: black;
+}
+.color6 {
+    background-color: #ffe4c4;
+    color: black;
+}
+.font-block {
+    display: inline-block;
+    padding: 0 10px;
+}
+.roboto {
+    font-family: Roboto;
+}
+.lato {
+    font-family: Lato;
+}
+.poppins {
+    font-family: Poppins;
+}
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+.font-name {
+    text-decoration: underline;
+    font-weight: 700;
+    font-size: 22px;
+}
+h1 {
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+}
+h2 {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 600;
+}
+p, li {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.text-title:hover {
+    text-decoration: underline;
+    color: rgb(95, 92, 92);
+    cursor: pointer;
+}
